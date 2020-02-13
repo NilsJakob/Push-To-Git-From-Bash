@@ -1,15 +1,30 @@
+
 win + s type: Git
 
 choose git bash
 
 gets you to MINGW64:/c/Users/nilsjj12
 
-cd .. to change directory, untill you are at the loacal directory from where to push from,
+cd .. to change directory, untill you are at the local directory from where to push from,
 
-but first clone
+and then clone
 
 git clone and put in url from github
 
-so cd Documents
+so
+cd Documents
 cd Present
 cd PushToGit
+cd Push-To-Git-From-Bash
+
+The terminal will look something like this:
+UIA+nilsjj12@UIAA106502B MINGW64 ~/Documents/Present/PushToGit/push-to-git-from-bash (master)
+
+If you have any images or files in repo, then:
+git pull origin master
+
+then:
+git status
+git add 'filename'
+git commit 'message'
+git push origin master
