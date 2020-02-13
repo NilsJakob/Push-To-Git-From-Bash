@@ -1,0 +1,15 @@
+win + s type: Git
+
+choose git bash
+
+gets you to MINGW64:/c/Users/nilsjj12
+
+cd .. to change directory, untill you are at the loacal directory from where to push from,
+
+but first clone
+
+git clone and put in url from github
+
+so cd Documents
+cd Present
+cd PushToGit
