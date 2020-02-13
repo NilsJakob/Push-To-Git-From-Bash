@@ -28,3 +28,25 @@ git status
 git add 'filename'
 git commit 'message'
 git push origin master
+
+If you then want to make changes do it in a new branch:
+git branch 'nameofbranch'
+
+This creates a new branch from where you can pull, add, commit and push
+
+if branch is up to date then this message wil appear:
+'From https://github.com/NilsJakob/Push-To-Git-From-Bash
+ * branch            pushpull   -> FETCH_HEAD
+Already up to date.'
+
+
+
+then 
+git status
+git add 'filename'
+git commit -m 'commit_message'
+git push origin 'branchname'
+
+
+
+
